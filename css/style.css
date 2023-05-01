@@ -1,0 +1,90 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style-type:none;
+    box-sizing: border-box;
+    border:none;
+    outline:none;
+}
+html{
+    font-size:62.5%;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+.wrapper{
+    width:100%;
+    padding: 0.5rem 8rem;
+}
+
+.n-bg{
+    background:#13131A;
+}
+.nav-wrap{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:1.2rem 0rem;
+}
+.logo h1{
+    color:#fff;
+    font-size:2.5rem;
+    cursor:pointer;
+
+}
+.logo h1:hover{
+    transform: rotate(360deg);
+    transition-duration: .2s;
+}
+.lspan{
+    color:#29E9BC;
+}
+.logo h1::first-letter{
+    font-size:3.4rem;
+}
+ul li {
+   display:inline-block;
+   margin-left:6rem; 
+   position:relative;
+}
+ul li a{
+    color:#fff;
+    font-size: 1.6rem;
+    transition:.4s all linear;
+
+}
+ul li a:hover{
+    color:#1FE9BC;
+}
+ul li a::after{
+    content:"";
+    position:absolute;
+    border-bottom:1px solid #29E9BC;
+    z-index: 1;
+    top:90%;
+    width:100%;
+    left:0;
+    opacity: 0;
+    bottom:-0rem;
+    transition:.4s all linear;
+}
+.active{
+    color:#1FE9BC;
+}
+ul li a:hover::after{
+    bottom:-1.8rem;
+    border-bottom:3px solid #29E9BC;
+    opacity: 1;
+}
+
+.menu-btn{
+    display:none;
+    color:#fff;
+    font-size:2rem;
+}
+.close-btn{
+    display:none;
+    color:#fff;
+    font-size: 1.5rem;
+}
