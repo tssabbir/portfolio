@@ -27,6 +27,19 @@
         top:2rem;
         font-size: 2.9rem;
         cursor: pointer;
+        width:3rem;
+        height:3rem;
+        background-image:url("../images/menu.png") ;
+        background-size:cover;
+
+        
+    }
+    .hide-menu{
+        width:2rem;
+        height:2rem;
+        right: .4rem;
+        top:2.4rem;
+        background-image:url("../images/close.png");
     }
     .nav-wrap{
         position:relative;
