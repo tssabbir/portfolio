@@ -25,4 +25,3 @@ for (var i = 0; i < btn.length; i++) {
     this.className += "active";
   });
 }
-git init
