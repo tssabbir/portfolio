@@ -27,3 +27,16 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 
+
+
+
+//type
+
+var typeing = document.querySelectorAll(".type");
+console.log(typeing)
+
+var typed = new Typed(typeing,{
+  strings: ["Web Designer", "Web Developer", "Youtuber", "Blogger"],
+  typeSpeed: 80,
+  backSpeed: 80,
+});

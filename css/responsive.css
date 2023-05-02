@@ -11,14 +11,18 @@
     html{
         font-size: 50%;
     }
+    
     .logo h1:hover{
-        transform: rotate(0deg);
+        transform: rotate(00deg);
+        transform:scaleY(1.1);
+        transition-duration: .4s;
+
     }
     .nav-wrap{
         flex-direction: column;
     }
     .wrapper{
-        padding:2rem;
+        width:95%;
     }
     .menu-btn{
         display:block;
